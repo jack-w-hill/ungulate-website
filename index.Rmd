@@ -108,12 +108,10 @@ h3 {
 We welcome your feedback on our method draft. To participate:
 
 1. Download the method draft below. 
-2. <em>(optionally)</em> Watch a webinar from the proponent team (available soon!), and read more about the method development timeline. 
-3. Submit your feedback using the form below, or email us directly.
+2. <em>(optionally)</em> Watch a webinar from the proponent team (coming soon!), and read more about the method development timeline. 
+3. Submit your feedback using the form below, or [email us](mailto:team@ungulatecarbon.com.au) directly.
 
 Feedback must be submitted by COB Friday 11 July.
-
-<br>
 
 <div class="btn-container">
 <a href=""><button class="btndownload">Download the method draft &nbsp;&nbsp; <i class="fa fa-download"></i></button></a
@@ -121,15 +119,18 @@ Feedback must be submitted by COB Friday 11 July.
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScysvS_TACZAgpUUBvtyu3aajCfiWVx4Qdo9Id2GoQ_Xz5ZYQ/viewform"><button class="btnsubmit">Submit your feedback &nbsp;&nbsp; <i class="fa fa-chevron-circle-right"></i></button></a>
 </div>
 
+We will upload further documents over the coming weeks. <br>
+Please [contact us](mailto:team@ungulatecarbon.com.au) if you need support to engage in the feedback process, for example, alternative document formats.
+
 <br>
 
-<a id="webinar"></a>
+<!-- <a id="webinar"></a> 
 
 #### <b>Webinar</b> 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yl_FOaknSfU?si=2QQ7klqdo-DQw-Mr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<br>
+<br> -->
 
 <a id="timeline"></a>
 
@@ -139,9 +140,9 @@ Feedback must be submitted by COB Friday 11 July.
   <p><em>Nov 2024: method EOI prioritised for development</em></p>
   <p><em>Dec 2024 &ndash; Apr 2025: method draft developed in consultation with technical working groups</em></p>
   <p><em>May 2025: method draft reviewed by working groups and federal government</em></p>
-  <p><strong>Jun&ndash;Jul 2025:</strong> revised method draft available for stakeholder feedback</p>
-  <p><strong>Aug 2025:</strong> stakeholder feedback reviewed and incorporated into method exposure draft</p>
-  <p><strong>Oct 2025:</strong> method exposure draft delivered to the [Emissions Reduction Assurance Committee](https://www.dcceew.gov.au/climate-change/emissions-reduction/accu-scheme/assurance-committee)</p>
+  <p><b>Jun&ndash;Jul 2025:</b> revised method draft available for stakeholder feedback</p>
+  <p><b>Aug 2025:</b> stakeholder feedback reviewed and incorporated into method exposure draft</p>
+  <p><b>Oct 2025:</b> method exposure draft delivered to the [Emissions Reduction Assurance Committee](https://www.dcceew.gov.au/climate-change/emissions-reduction/accu-scheme/assurance-committee)</p>
 </div>
 
 <br>
@@ -157,12 +158,12 @@ This method is being co-developed by the [Northern Australian Indigenous Land Ma
 
 <div>
 <img src="images/cath.jpeg" alt="Prof. Catherine Lovelock" style="width:200px; height:200px; border-radius:50%;">
-<div>Prof. Catherine Lovelock (UQ)<br><em>[email Cath](mailto:c.lovelock@uq.edu.au?cc=justin.perry@nailsma.org.au; jack.hill@uqconnect.edu.au&subject=Draft%20ungulate%20ACCU%20Scheme%20method%20enquiry)</em></div>
+<div>Prof. Catherine Lovelock (UQ)<br><em>[email Cath](mailto:c.lovelock@uq.edu.au?cc=team@ungulatecarbon.com.au; justin.perry@nailsma.org.au; jack.hill@uqconnect.edu.au&subject=Draft%20ungulate%20ACCU%20Scheme%20method%20enquiry)</em></div>
 </div>
 
 <div>
 <img src="images/justin.png" alt="Dr Justin Perry" style="width:200px; height:200px; border-radius:50%;">
-<div>Dr Justin Perry (NAILSMA)<br><em>[email Justin](mailto:justin.perry@nailsma.org.au?cc=c.lovelock@uq.edu.au; jack.hill@uqconnect.edu.au&subject=Draft%20ungulate%20ACCU%20Scheme%20method%20enquiry)</em></div>
+<div>Dr Justin Perry (NAILSMA)<br><em>[email Justin](mailto:justin.perry@nailsma.org.au?cc=team@ungulatecarbon.com.au; c.lovelock@uq.edu.au; jack.hill@uqconnect.edu.au&subject=Draft%20ungulate%20ACCU%20Scheme%20method%20enquiry)</em></div>
 </div>
 
 </div>

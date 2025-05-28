@@ -4,8 +4,8 @@ navbar:
   left:
     - text: "Review the draft"
       href: index.html#intro
-    - text: "Webinar"
-      href: index.html#webinar
+    # - text: "Webinar"
+    #   href: index.html#webinar
     - text: "Timeline"
       href: index.html#timeline
     - text: "Proponent team"
