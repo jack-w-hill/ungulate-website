@@ -15,7 +15,7 @@ navbar:
     #   href: https://www.google.com/
     # - icon: ion-social-github
     #   href: https://github.com/
-output_dir: "site"
+output_dir: "docs"
 output:
   html_document:
     theme: flatly
