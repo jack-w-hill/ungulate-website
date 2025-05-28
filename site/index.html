@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Ungulate carbon</title>
+
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ungulate carbon &nbsp; &nbsp; &nbsp; &nbsp;</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html#intro">Review the draft</a>
+</li>
+<li>
+  <a href="index.html#webinar">Webinar</a>
+</li>
+<li>
+  <a href="index.html#timeline">Timeline</a>
+</li>
+<li>
+  <a href="index.html#team">Proponent team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<!-- icon library -->
+<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></p>
+<style type="text/css">
+.btndownload {
+  background-color: DodgerBlue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btndownload:hover {
+  background-color: RoyalBlue;
+}
+
+.btnsubmit {
+  border: 2px solid black;
+  border-color: #e7e7e7;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btnsubmit:hover {
+  background: #e7e7e7;
+}
+
+.button-container {
+  display: flex;
+}
+
+.rounded-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h3 {
+  text-align: center;
+}
+
+.timeline-simple {
+  position: relative;
+  max-width: 700px;
+  margin: 0px auto;
+  padding-left: 0;  
+  color: #333;
+}
+
+/* vertical line */
+.timeline-simple::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #ccc;
+}
+
+/* paragraphs with left margin to clear dots */
+.timeline-simple p {
+  position: relative;
+  margin-left: 20px;  
+  margin-bottom: 16px;
+}
+
+/* dots on vertical line */
+.timeline-simple p::before {
+  content: '';
+  position: absolute;
+  left: -25px;  
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  background: #18bc9c;
+  border-radius: 50%;
+  /* border: 2px solid white; */
+  box-sizing: content-box;
+}
+
+
+</style>
+<p><img src="images/disturbed-wetland.jpg" /></p>
+<p><br></p>
+<p><a id="intro"></a></p>
+<div id="were-developing-an-accu-scheme-method-to-reduce-emissions-by-managing-introduced-hooved-animals-ungulates-in-wetlands" class="section level3">
+<h3>We’re developing an ACCU Scheme method to<br><b>reduce emissions by managing introduced hooved animals (ungulates) in wetlands</b></h3>
+<p><br></p>
+<p>We welcome your feedback on our method draft. To participate:</p>
+<ol style="list-style-type: decimal">
+<li>Download the method draft below.</li>
+<li><em>(optionally)</em> Watch a webinar from the proponent team (available soon!), and read more about the method development timeline.</li>
+<li>Submit your feedback using the form below, or email us directly.</li>
+</ol>
+<p>Feedback must be submitted by COB Friday 11 July.</p>
+<p><br></p>
+<div class="btn-container">
+<p><a href=""><button class="btndownload">Download the method draft    <i class="fa fa-download"></i></button></a
+<br> <a href="https://docs.google.com/forms/d/e/1FAIpQLScysvS_TACZAgpUUBvtyu3aajCfiWVx4Qdo9Id2GoQ_Xz5ZYQ/viewform"><button class="btnsubmit">Submit your feedback    <i class="fa fa-chevron-circle-right"></i></button></a></p>
+</div>
+<p><br></p>
+<p><a id="webinar"></a></p>
+<div id="webinar" class="section level4">
+<h4><b>Webinar</b></h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yl_FOaknSfU?si=2QQ7klqdo-DQw-Mr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<p><br></p>
+<p><a id="timeline"></a></p>
+</div>
+<div id="timeline" class="section level4">
+<h4><b>Timeline</b></h4>
+<div class="timeline-simple">
+<p>
+<em>Nov 2024: method EOI prioritised for development</em>
+</p>
+<p>
+<em>Dec 2024 – Apr 2025: method draft developed in consultation with technical working groups</em>
+</p>
+<p>
+<em>May 2025: method draft reviewed by working groups and federal government</em>
+</p>
+<p>
+<strong>Jun–Jul 2025:</strong> revised method draft available for stakeholder feedback
+</p>
+<p>
+<strong>Aug 2025:</strong> stakeholder feedback reviewed and incorporated into method exposure draft
+</p>
+<p>
+<strong>Oct 2025:</strong> method exposure draft delivered to the <a href="https://www.dcceew.gov.au/climate-change/emissions-reduction/accu-scheme/assurance-committee">Emissions Reduction Assurance Committee</a>
+</p>
+</div>
+<p><br></p>
+<p><a id="team"></a></p>
+</div>
+<div id="proponent-team" class="section level4">
+<h4><b>Proponent team</b></h4>
+<p>This method is being co-developed by the <a href="https://nailsma.org.au/">Northern Australian Indigenous Land Management Alliance</a> (NAILSMA) and <a href="https://www.uq.edu.au/">The University of Queensland</a> (UQ). We’re working in collaboration with Indigenous peak bodies, local, state and federal governments, NGOs and industry organisations. The lead co-proponents are:</p>
+<div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; text-align: center;">
+<div>
+<img src="images/cath.jpeg" alt="Prof. Catherine Lovelock" style="width:200px; height:200px; border-radius:50%;">
+<div>
+Prof. Catherine Lovelock (UQ)<br><em><a href="mailto:c.lovelock@uq.edu.au?cc=justin.perry@nailsma.org.au;%20jack.hill@uqconnect.edu.au&amp;subject=Draft%20ungulate%20ACCU%20Scheme%20method%20enquiry">email Cath</a></em>
+</div>
+</div>
+<div>
+<img src="images/justin.png" alt="Dr Justin Perry" style="width:200px; height:200px; border-radius:50%;">
+<div>
+Dr Justin Perry (NAILSMA)<br><em><a href="mailto:justin.perry@nailsma.org.au?cc=c.lovelock@uq.edu.au;%20jack.hill@uqconnect.edu.au&amp;subject=Draft%20ungulate%20ACCU%20Scheme%20method%20enquiry">email Justin</a></em>
+</div>
+</div>
+</div>
+<br>
+<hr>
+</div>
+</div>
+
+<p style="font-size: 80%;"><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> &mdash; June 2025 &mdash; Northern Australian Indigenous Land and Sea Management Alliance and The University of Queensland. By accessing this website, you acknowledge that the information contained within (including and particularly the method draft document) is subject to change at any time and should not be relied on for any purpose. We accept no liability for decisions made on the basis of information contained within.</p>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

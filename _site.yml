@@ -1,0 +1,24 @@
+name: "Website for the ungulate carbon method team"
+navbar:
+  title: "Ungulate carbon &nbsp; &nbsp; &nbsp; &nbsp;"
+  left:
+    - text: "Review the draft"
+      href: index.html#intro
+    - text: "Webinar"
+      href: index.html#webinar
+    - text: "Timeline"
+      href: index.html#timeline
+    - text: "Proponent team"
+      href: index.html#team
+  right:
+    # - text: "Read the draft  ⤓" 
+    #   href: https://www.google.com/
+    # - icon: ion-social-github
+    #   href: https://github.com/
+output_dir: "site"
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    include:
+      after_body: footer.html
