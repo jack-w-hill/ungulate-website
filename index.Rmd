@@ -105,7 +105,11 @@ h3 {
 
 <br>
 
-We welcome your feedback on our method draft. To participate:
+Feedback on our method draft closed in early August. As per the timeline below, we will seek to reply to feedback by October. 
+
+If you were unable to submit feedback but would still like to engage with the method development process, please [contact us directly](mailto:team@ungulatecarbon.com.au) to discuss. Thank you for your interest in the method.
+
+<!-- We welcome your feedback on our method draft. To participate:
 
 1. Download the method draft below. 
 2. <em>(optionally)</em> Watch a webinar from the proponent team (coming soon!), and read more about the method development timeline. 
@@ -120,7 +124,7 @@ Feedback must be submitted by COB Friday 11 July.
 </div>
 
 We will upload further documents over the coming weeks. <br>
-Please [contact us](mailto:team@ungulatecarbon.com.au) if you need support to engage in the feedback process, for example, alternative document formats.
+Please [contact us](mailto:team@ungulatecarbon.com.au) if you need support to engage in the feedback process, for example, alternative document formats. -->
 
 <br>
 
@@ -142,7 +146,7 @@ Please [contact us](mailto:team@ungulatecarbon.com.au) if you need support to en
   <p><em>May 2025: method draft reviewed by working groups and federal government</em></p>
   <p><b>Jun&ndash;Jul 2025:</b> revised method draft available for stakeholder feedback</p>
   <p><b>Aug 2025:</b> stakeholder feedback reviewed and incorporated into final method draft</p>
-  <p><b>Oct 2025:</b> final method draft delivered to the [Emissions Reduction Assurance Committee](https://www.dcceew.gov.au/climate-change/emissions-reduction/accu-scheme/assurance-committee)</p>
+  <p><b>Oct 2025:</b> final method draft delivered to the Department of Climate Change, Energy, the Environment and Water ([Emissions Reduction Assurance Committee Secretariat](https://www.dcceew.gov.au/climate-change/emissions-reduction/accu-scheme/assurance-committee)) for review</p>
 </div>
 
 <br>

@@ -2,7 +2,7 @@ name: "Website for the ungulate carbon method team"
 navbar:
   title: "Ungulate carbon &nbsp; &nbsp; &nbsp; &nbsp;"
   left:
-    - text: "Review the draft"
+    - text: "The method"
       href: index.html#intro
     # - text: "Webinar"
     #   href: index.html#webinar
