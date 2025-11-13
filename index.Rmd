@@ -101,30 +101,25 @@ h3 {
 
 <a id="intro"></a>
 
-### We're developing an ACCU Scheme method to<br><b>reduce emissions by managing introduced hooved animals (ungulates) in wetlands</b>
+### We're developing an ACCU Scheme method for<br><b>wetland repair through ungulate (hooved animal) management</b>
 
 <br>
 
-Feedback on our method draft closed in early August. As per the timeline below, we will seek to reply to feedback by October. 
+We've now submitted a draft document package to the Department of Climate Change, Energy, the Environment and Water ([Emissions Reduction Assurance Committee Secretariat](https://www.dcceew.gov.au/climate-change/emissions-reduction/accu-scheme/assurance-committee)) for review. Please see our updated timeline below.
 
-If you were unable to submit feedback but would still like to engage with the method development process, please [contact us directly](mailto:team@ungulatecarbon.com.au) to discuss. Thank you for your interest in the method.
+The document package opens with a <em>discussion paper</em> which details our method development activities to-date, presents our reply to the recent round of public consultation conducted via this website, and introduces the enclosed draft method documents:
 
-<!-- We welcome your feedback on our method draft. To participate:
-
-1. Download the method draft below. 
-2. <em>(optionally)</em> Watch a webinar from the proponent team (coming soon!), and read more about the method development timeline. 
-3. Submit your feedback using the form below, or [email us](mailto:team@ungulatecarbon.com.au) directly.
-
-Feedback must be submitted by COB Friday 11 July.
+* A draft <em>methodology determination</em>. 
+* A draft <em>technical guidance document</em>.
+* And an updated <em>draft simple method guide</em>. 
 
 <div class="btn-container">
-<a href="https://drive.google.com/uc?export=download&id=1zrNlUZD__wo0iYoPJt-yhJbx8IfqpDKe"><button class="btndownload">Download the method draft &nbsp;&nbsp; <i class="fa fa-download"></i></button></a
-<br>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScysvS_TACZAgpUUBvtyu3aajCfiWVx4Qdo9Id2GoQ_Xz5ZYQ/viewform"><button class="btnsubmit">Submit your feedback &nbsp;&nbsp; <i class="fa fa-chevron-circle-right"></i></button></a>
+<a href="https://drive.usercontent.google.com/u/0/uc?id=1Oai8eP0vfk6XL6-ldwq2WLAgX7ocJ3LG&export=download"><button class="btndownload">Download the draft document package <em>(zipped PDFs, 3.5 MB)</em> &nbsp;&nbsp; <i class="fa fa-download"></i></button></a>
 </div>
 
-We will upload further documents over the coming weeks. <br>
-Please [contact us](mailto:team@ungulatecarbon.com.au) if you need support to engage in the feedback process, for example, alternative document formats. -->
+We will update the draft documents once we receive feedback from DCCEEW (ERAC Secretariat), and we expect that there will be at least one further round of public consultation in 2026.
+
+Please [contact us](mailto:team@ungulatecarbon.com.au) if you have any further questions. Thank you for your interest in the method.
 
 <br>
 
@@ -144,9 +139,12 @@ Please [contact us](mailto:team@ungulatecarbon.com.au) if you need support to en
   <p><em>Nov 2024: method EOI prioritised for development</em></p>
   <p><em>Dec 2024 &ndash; Apr 2025: method draft developed in consultation with technical working groups</em></p>
   <p><em>May 2025: method draft reviewed by working groups and federal government</em></p>
-  <p><b>Jun&ndash;Jul 2025:</b> revised method draft available for stakeholder feedback</p>
-  <p><b>Aug 2025:</b> stakeholder feedback reviewed and incorporated into final method draft</p>
-  <p><b>Oct 2025:</b> final method draft delivered to the Department of Climate Change, Energy, the Environment and Water ([Emissions Reduction Assurance Committee Secretariat](https://www.dcceew.gov.au/climate-change/emissions-reduction/accu-scheme/assurance-committee)) for review</p>
+  <p><em>Jun&ndash;Jul 2025: revised method draft available for stakeholder feedback</em></p>
+  <p><em>Aug 2025: stakeholder feedback reviewed and incorporated into final method draft</em></p>
+  <p><b>Nov 2025:</b> draft document package delivered to DCCEEW (ERAC Secretariat) for review</p>
+  <p><b>Early 2026:</b> DCCEEW (ERAC Secretariat) review received</p>
+  <p><b>Mid 2026:</b> presentation at ERAC meeting; finalisation of work to support National Greenhouse Gas Inventory reporting</p>
+  <p><b>Late 2026/early 2027:</b> final method document package delivered for formal ERAC assessment</p>
 </div>
 
 <br>
@@ -155,7 +153,7 @@ Please [contact us](mailto:team@ungulatecarbon.com.au) if you need support to en
 
 #### <b>Proponent team</b> 
 
-This method is being co-developed by the [Northern Australian Indigenous Land Management Alliance](https://nailsma.org.au/) (NAILSMA) and [The University of Queensland](https://environment.uq.edu.au/) (UQ). We're working in collaboration with Indigenous peak bodies, local, state and federal governments, NGOs and industry organisations. The lead co-proponents are:
+This method is being co-developed by the [North Australian Indigenous Land Management Alliance](https://nailsma.org.au/) (NAILSMA) and [The University of Queensland](https://environment.uq.edu.au/) (UQ). We're working in collaboration with Indigenous peak bodies, local, state and federal governments, NGOs and industry organisations. The lead co-proponents are:
 
 
 <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; text-align: center;">
